@@ -37,7 +37,7 @@ modules:
           whitelist:
             - "${ ROLES.VERIFIED }"
             
-        roles:
+        reactions:
           # REACTION EMOJI ID: ROLE
           "<:pe:946999484175491102>":
             role: "945554661413367819"
