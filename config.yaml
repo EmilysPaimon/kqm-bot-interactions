@@ -25,6 +25,8 @@ modules:
     
     configs:
       main:
+        name: "Main"
+      
         displayInteractionPath: "verification/arte_test"
       
         # Who can get these roles
