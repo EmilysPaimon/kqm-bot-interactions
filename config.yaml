@@ -17,6 +17,25 @@ permissions:
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  reactRoles:
+    enabled: true
+    
+    # Who can use the /reactroles command, anyone with MANAGE_ROLES if not set.
+    permission: "${ ROLES.MODERATOR }"
+    
+    configs:
+      main:
+        displayInteractionPath: "verification/arte_test"
+      
+        # Who can get these roles
+        permissions:
+          whitelist:
+            - "${ ROLES.VERIFIED }"
+            
+        roles:
+          # REACTION EMOJI: ROLE
+          ":KEKpat:872076686378819594": "945554661413367819"
+
   modMail:
     enabled: false
     
