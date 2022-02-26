@@ -17,6 +17,15 @@ permissions:
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  vanityRoles:
+    enabled: true
+    
+    # Who can use the /vanityrole command, anyone with MANAGE_ROLES if not set.
+    permission: "${ ROLES.VERIFIED }"
+    
+    # Log whenever someone's custom role is updated
+    loggingChannel: "${ CHANNELS.MODMAIL.LOGGING }"
+    
   reactRoles:
     enabled: true
     
