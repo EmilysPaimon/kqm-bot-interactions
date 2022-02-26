@@ -25,9 +25,12 @@ modules:
     
     configs:
       main:
-        name: "Main"
-      
-        displayInteractionPath: "verification/arte_test"
+        content: "https://cdn.discordapp.com/attachments/810941835949244447/811264667867414558/unknown.png"
+        title: "Would you be interested in extended car insurance?"
+        description: |
+          It would benefit you in the long term if you opted-in for out Extended Car Insurance:tm:. We cover everything from your car being blown up by the local gang to Russian troops commandeering your vehicle.
+          
+          *For full coverage terms please read our [Terms & Service](https://www.youtube.com/watch?v=dQw4w9WgXcQ)*
       
         # Who can get these roles
         permissions:
@@ -35,9 +38,14 @@ modules:
             - "${ ROLES.VERIFIED }"
             
         roles:
-          # REACTION EMOJI: ROLE
-          "<:pe:946999484175491102>": "945554661413367819"
-          "<a:pe:944708081353384006>": "945554661413367819"
+          # REACTION EMOJI ID: ROLE
+          "<:pe:946999484175491102>":
+            role: "945554661413367819"
+            description: "Yes"
+            
+          "<:based:945928754973270067>":
+            role: "945554661413367819"
+            description: "Absolutely"
 
   modMail:
     enabled: false
