@@ -25,7 +25,7 @@ modules:
     
     configs:
       main:
-        content: "https://cdn.discordapp.com/attachments/810941835949244447/811264667867414558/unknown.png"
+        image: "https://cdn.discordapp.com/attachments/810941835949244447/811264667867414558/unknown.png"
         title: "Would you be interested in extended car insurance?"
         description: |-
           It would benefit you in the long term if you opted-in for out Extended Car Insurance:tm:. We cover everything from your car being blown up by the local gang to Russian troops commandeering your vehicle.
