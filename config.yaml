@@ -26,7 +26,7 @@ modules:
         - "${ ROLES.VERIFIED }"
     
     # Log whenever someone's custom role is updated
-    loggingChannel: "${ CHANNELS.MODMAIL.LOGGING }"
+    loggingChannel: "946834556630233098"
     
   reactRoles:
     enabled: true
