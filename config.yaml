@@ -36,7 +36,7 @@ modules:
             
         roles:
           # REACTION EMOJI: ROLE
-          ":KEKpat:872076686378819594": "945554661413367819"
+          "<:pe:946999484175491102>": "945554661413367819"
 
   modMail:
     enabled: false
